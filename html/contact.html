@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="../javascript/index.js"></script>
+    <link rel="stylesheet" href="../style/contact.css">
+</head>
+<body>
+    <!-- All the imgs come from https://unsplash.com/ -->
+
+    
+    <!-- Navigation -->
+    <nav>
+        <a href="home.html">
+            <img src="../img/logo.jpg" alt="logo">
+        </a>
+        <div class="navigation">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="insights.html">Insights</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="hamburger-menu">&#9776;</div>
+    </nav>
+    <!-- End Navigation -->
+
+
+    <!-- Title -->
+
+    <div class="title">
+        <h1>Contact</h1>
+    </div>
+
+    <!-- End Title -->
+
+
+    <!-- Contact -->
+    <div class="contact">
+        <h2>Contact</h2>
+        <div class="contact-card">
+            <img src="../img/Beijing-office.jpg" alt="Beijing office">
+            <div class="contact-info">
+                <h4>Beijing Office</h4>
+                <br>
+                <p>Address: 123 Main Street, Suite 456, Beijing, China</p>
+                <p>Phone: +86 10 1234 5678</p>
+            </div>               
+        </div>
+        <hr>
+        <div class="contact-card">
+            <img src="../img/Shanghai-office.jpg" alt="Shanghai office">
+            <div class="contact-info">
+                <h4>Shanghai Office</h4>
+                <br>
+                <p>Address: 456 Business Avenue, 8th Floor, Shanghai, China</p>
+                <p>Phone: +86 21 8765 4321</p>
+            </div>               
+        </div>
+
+        <div class="contact-form">
+            <h3>Send us messages</h3>
+                
+            <div class="form-row">
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Ming Li" required>
+                </div>
+            
+                <div class="input-group">
+                    <label for="company">Company:</label>
+                    <input type="text" id="company" name="company" placeholder="ABC Co." required>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="input-group">
+                    <label for="position">Position:</label>
+                    <input type="text" id="position" name="position" placeholder="Manager" required>
+                </div>
+            
+                <div class="input-group">
+                    <label for="industry">Industry:</label>
+                    <select id="industry" name="industry" required>
+                        <option value="technology">Technology</option>
+                        <option value="finance">Finance</option>
+                        <option value="environment">Environment</option>
+                        <option value="healthcare">Healthcare</option>
+                        <option value="education">Education</option>
+                        <option value="consumer-goods">Consumer Goods</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="input-group">
+                    <label for="tel">Phone Number:</label>
+                    <input type="tel" id="tel" name="tel" placeholder="+86" required>
+                </div>
+            
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="abc@example.com" required>
+                </div>
+            </div>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Type your message here..." required></textarea>
+            
+            <input type="submit" value="Submit">
+        </div>            
+    </div>
+
+    <!-- End About -->
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>M&H Strategy</h4>
+                    <ul>
+                        <li><a href="home.html">Elevate Your Vision, Transform Your Future</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="insights.html">Insights</a></li>
+                        <li><a href="services.html">Consulting Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="about.html?filter=company">Company</a></li>
+                        <li><a href="about.html?filter=management">Management</a></li>
+                        <li><a href="about.html?filter=join-us">Join Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <img src="../img/qr-code.jpg" alt="QR code">
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 M&H Strategy. All rights reserved.</p>
+                <p>Disclaimer: This website is a course assignment of MEDIART 213. The content above is not real. All the images come from unsplash.com.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+</body>
+</html>

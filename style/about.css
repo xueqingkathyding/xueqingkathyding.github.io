@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* Global Tags */
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(35, 35, 85);
+}
+
+span {
+  font-size: 0.9rem;
+  color: #757373;
+}
+
+h6 {
+  font-size: 1.1rem;
+  color: rgb(24, 24, 49);
+}
+
+.button {
+    border: 1px solid #4282AA;
+    background-color: #fff;
+    color: #4282AA;
+    padding: 10px 20px;
+    text-decoration: none; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #4282AA;
+    color: white;
+}
+
+
+/* Navigation */
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0.7vw 8vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    background-color: white;
+}
+  
+nav img {
+    width: 170px;
+    height: auto;
+    cursor: pointer;
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav .navigation ul li {
+    list-style: none;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav .navigation ul li a {
+    text-decoration: none;
+    color: #193046;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+nav .navigation ul li a:hover {
+    color: #4282AA;
+}
+
+.hamburger-menu {
+    display: none; 
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* End Navigation */
+
+
+/* Title */
+
+.title {
+    background-color: #193046;
+    width: 100%;
+    height: 15vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title h1 {
+    color: #ffffff;
+}
+
+/* End Title */
+
+
+/* Filter */
+
+.filter-button{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 3% auto;
+    display: flex;
+    flex-direction: row; 
+}
+
+button {
+    border: 1px solid #4282AA;
+    background-color: #fff;
+    color: #4282AA;
+    padding: 10px 20px;
+    text-decoration: none; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button.active {
+    background-color: #4282AA;
+    color: white;
+}
+
+/* End Filter */
+
+
+/* About */
+
+.about {
+    margin: 3% auto;
+    width: 60%;
+}
+
+.about-content h2 {
+    margin-bottom: 3%;
+    font-size: 2em;
+}
+
+/* Company */
+
+.company-introduction p{
+    line-height: normal;
+    margin-bottom: 3%;
+}
+
+.company-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* Management */
+
+.management-card {
+    display: flex;
+    align-items: center;
+    margin: 3% 0;
+}
+
+.management-card img {
+    width: 25%;
+    margin-right: 3%;
+}
+
+.management-intro {
+    flex: 1;
+}
+
+.management-intro h4,
+.management-intro p {
+    margin-bottom: 2%;
+}
+
+.management-intro a{
+    color:#4282AA;
+}
+
+/* Join Us */
+
+.job-description {
+    margin: 2% 0;
+    line-height: 25px;
+}
+
+.job-description ul {
+    list-style-type:disc;
+    padding-left: 20px;
+}
+
+.job-contact {
+    font-weight: bold;
+    color:#4282AA;
+}
+
+/* End About */
+
+
+/* Footer */
+
+/* I referred to https://www.youtube.com/watch?v=YOb67OKw62s when designing the footer. */
+
+.footer-container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul {
+    list-style:none;
+}
+
+footer{
+    background-color: #193046;
+    padding: 50px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size:18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col ul {
+    padding-left: 0; 
+}
+
+.footer-col ul li {
+    margin-left: 0;
+}
+
+.footer-col h4::before {
+    content: '';
+    position:absolute;
+    left: 0%;
+    bottom: -10px;
+    background-color: white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+}
+
+.row img {
+    width: 100px;
+}
+
+.copyright{
+    padding-top: 30px;
+    color: white;
+}
+
+/* End Footer */
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1024px) {
+    nav .hamburger-menu {
+        display: block; 
+    }
+
+    nav .navigation {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+        z-index: 999;
+    }
+
+    nav .navigation.show {
+        display: flex;
+    }
+
+    nav .navigation ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .navigation ul li {
+        margin: 10px 0;
+    }
+
+    nav .navigation.show {
+        top: 60px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    /* Navigation */
+    nav .hamburger-menu {
+        display: block;
+    }
+
+    nav .navigation {
+        top: 50px; 
+    }
+
+    /* About */
+    .filter-button {
+        margin-top: 5%;
+        width: 80%;
+    }
+
+    .about {
+        width: 80%;
+    }
+
+    .management-card {
+        flex-direction: column;
+        align-items: flex-start;
+        margin:10% 0;
+    }
+
+    .management-card img {
+        margin-bottom: 5%; 
+        width: 60%; 
+    }
+
+    /* Footer */
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
