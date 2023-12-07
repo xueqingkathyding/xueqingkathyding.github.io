@@ -1,8 +1,11 @@
 ## Website of M&H Strategy: Final Project of MEDIART 213
+- George Washington
+* John Adams
++ Thomas Jefferson
 - Browse this website via https://xueqingkathyding.github.io/
 - &copy; 2023 Xueqing Ding. All rights reserved.
 - Disclaimer: This website is a course assignment of MEDIART 213. The company, M&H Strategy, is an imaged one. The content of it is not real.
-# Sources I referred to when building this website:
+### Sources I referred to when building this website:
 # Overall layout: https://www.youtube.com/watch?v=oYRda7UtuhA&t=677s
 # Carousel: https://getbootstrap.com/docs/5.3/components/carousel/
 # Hamburger Menu: https://www.youtube.com/watch?v=flItyHiDm7E
