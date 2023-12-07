@@ -1,5 +1,6 @@
-# Browse this website via https://xueqingkathyding.github.io/
-  # &copy; 2023 Xueqing Ding. All rights reserved.
+# 
+Browse this website via https://xueqingkathyding.github.io/
+# &copy; 2023 Xueqing Ding. All rights reserved.
 # Disclaimer: This website is a course assignment of MEDIART 213. The company, M&H Strategy, is an imaged one. The content of it is not real.
 # Sources I referred to when building this website:
 # Overall layout: https://www.youtube.com/watch?v=oYRda7UtuhA&t=677s
