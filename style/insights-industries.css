@@ -164,11 +164,13 @@ nav .navigation ul li a:hover {
 .content-overview h3,
 .content-highlights h3 {
     color:#193046;
+    padding-bottom: 1%;
 }
 
 .content-highlights ul {
     list-style-type:disc;
     padding-left: 20px;
+    line-height: 25px;
 }
 
 /* End Insights */
